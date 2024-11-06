@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(./assets/fonts/Raleway-VariableFont_wght.ttf),
+        url(./assets/fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #05171E;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: #082129;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book {
+    background-color: #0D3240;
+    color: white;
+    border-radius: 16px;
+    margin: 16px;
+    text-align: center;   
+    border-bottom: #68A7BB;
+    width: 480px;
+
+}
+
+.title {
+    border-bottom: solid #68A7BB;
+    padding: 16px;
+
+}
+
+.image {
+    padding: 16px;
+    border-bottom: solid #68A7BB;
+    background-color: #124758;
+}
+
+.image img{
+    height: 80px;
+}
+
+.information {
+    padding: 16px;
+    border-bottom: solid #68A7BB;
+}
+
+.price_and_likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: red;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.d_none {
+    display: none;
+}
+
+.not_liked {
+    height: 32px;
+}
+
+.liked {
+    height: 32px;
+}
+
+.like_icon {
+    height: 32px;
+}
+
+.book_info {
+    
+    padding-top: 16px;
+}
+
+.info {
+    display: flex;
+    padding-bottom: 4px;
+}
+
+.comment_section {
+    padding: 16px;
+}
+
+.comments {    
+    max-height: 200px;
+    overflow: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #05171E; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #68A7BB; 
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1e7491; 
+  }
+
+.comments_title {
+    padding-bottom: 16px;
+    text-align: start;
+}
+
+.comment {
+    display: flex;
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.name {
+    width: 35%;
+    text-align: start;
+}
+
+.text {
+    text-align: start;
+    flex: 1;
+    padding-right: 16px;
+    
+}
+
+.input {
+    display: flex;
+    /* align-items: center; */
+    margin-top: 16px;
+    gap: 8px;
+}
+
+.comment_input {
+    border: none;
+    border-bottom: solid #68A7BB;
+    background-color: #0F475C;
+    flex: 1;
+    height: 24px;
+}
+
+.input button img {
+    height: 100%;
+    width: 100%;
+}
+
+.input button {
+    padding-block: 0;
+    padding-inline: 0;
+    border-width: 0px;
+    height: 24px;
+    width: 24px;
+    background: none;
+}
+
+.input button:hover {
+    cursor: pointer;
+}
